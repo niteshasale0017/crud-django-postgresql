@@ -1,0 +1,59 @@
+
+.table{
+    color:#fff;
+    text-shadow:0 0 20px #ff005b;
+}
+.table,tr:hover{
+    color:#0fc5d8;
+    text-shadow:0 0 20px #1cabd6;
+}
+#tr{
+    color:#fff;
+    text-shadow:0 0 20px #ff005b;
+    background:#c3c3d8;
+}
+.head-label{
+    color:#fff;
+    text-shadow:0 0 20px #ff005b;
+    background:#dae9f5;
+}
+.add-btn{
+    border-radius:100px;
+    transition:.5s;
+    color:#15f4ee;
+    border:2px solid #15f4ee;
+}
+.add-btn:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+    color:white;            
+}
+input,::placeholder{
+    color:red;
+}
+.update-btn{
+    border-radius:100px;
+    transition:1s;
+    color:#15f4ee;
+    border:2px solid #15f4ee;
+}
+.update-btn:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+    color:white;            
+}
+.label{
+    color:#fff;
+    text-shadow:0 0 20px #ff005b;
+    background:#c3c3d8;
+}
+.label-after{
+    color:#ff005b;
+    filter:blur(15px);
+}
+.label:hover{
+    color:#0fc5d8;
+    text-shadow:0 0 20px #1cabd6;
+}

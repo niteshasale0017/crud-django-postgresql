@@ -1,0 +1,18 @@
+{%extends 'student/base.html'%}
+{% block content%}
+
+
+
+<div class="col-sm-4 .col-12">
+<h4 class="text-center mt-2 label">Update Informatios...!</h4>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ key.as_p}}
+        <button type="submit" class="update-btn col-sm-12" value="UPDATE">UPDATE</button>
+    </form>
+
+</div>
+
+
+
+{% endblock content%}
